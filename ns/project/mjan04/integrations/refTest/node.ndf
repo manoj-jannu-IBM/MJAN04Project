@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Manoj.Jannu@ibm.com</value>
-    <value name="createdDate">1780567484488</value>
-    <value name="lastModifiedDate">1780567484488</value>
+    <value name="lastModifiedBy">Manoj.Jannu@ibm.com</value>
+    <value name="lastModifiedDate">1780568220934</value>
     <value name="displayName">refTest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -61,12 +60,11 @@
         </record>
         <Boolean name="isProjectPackage">false</Boolean>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">DADA_Flatfileassets.services:person_FlatFileService</value>
-          <value name="serviceName">DADA_Flatfileassets.services:person_FlatFileService</value>
-          <value name="displayName">person_FlatFileService</value>
-          <value name="assetType">Flow Service</value>
-          <value name="nsName">DADA_Flatfileassets.services:person_FlatFileService</value>
-          <value name="itemType">flowService</value>
+          <value name="description">DADA_JAVAServiceAssets.services:javaService</value>
+          <value name="serviceName">DADA_JAVAServiceAssets.services:javaService</value>
+          <value name="displayName">javaService</value>
+          <value name="assetType">Java Service</value>
+          <value name="nsName">DADA_JAVAServiceAssets.services:javaService</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
@@ -74,6 +72,8 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
